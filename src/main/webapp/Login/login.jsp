@@ -6,7 +6,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>css3炫酷登录页</title>
+  <title>登录页面</title>
   <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
   <meta name="author" content="Vincent Garreau" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -92,7 +92,7 @@
 								if (response.data=="success"){
 									alert("登录成功，欢迎光临");
 									//页面跳转
-									$(location).attr('href', 'http://www.cerambycidae.org.cn/');
+									$(location).attr('href', 'http://www.bilibili.com');
 									return false;
 								}
 							})
